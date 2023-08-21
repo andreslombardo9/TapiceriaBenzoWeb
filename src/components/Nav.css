@@ -1,0 +1,98 @@
+/* Estilos para el Navbar en versión móvil */
+.custom-navbar {
+  width: 100%;
+  margin-bottom: 3rem;
+  background-color: #86745d;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  line-height: 1rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+  appearance: none;
+}
+
+.bxl-instagram,
+.bxl-facebook-square {
+  color: #f8f8f8;
+}
+
+.bxl-facebook-square:hover {
+  color: #d7cebd;
+}
+
+.bxl-instagram:hover {
+  color: #d7cebd;
+}
+
+/* Estilos para el logo en versión móvil */
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  max-width: 65px;
+  height: auto;
+  border-radius: 50%;
+  border: 2.5px solid #000000;
+}
+
+/* Estilos para los enlaces del Navbar en versión móvil */
+.nav-link {
+  color: #dad4c7;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+  text-align: center;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+/* Estilos específicos para el efecto hover */
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* Estilos para los enlaces enfocados (cuando se hace clic en un enlace) */
+.nav-link:focus {
+  color: #ffffff;
+}
+
+/* Estilos para la versión de escritorio */
+@media (min-width: 768px) {
+  /* ... (otros estilos de la versión de escritorio) ... */
+
+  /* Estilos para el contenedor del Navbar en versión de escritorio */
+  .nav-container {
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2.5rem;
+  }
+
+  /* Estilos para el logo en versión de escritorio */
+  .logo {
+    max-width: 55px;
+  }
+
+  /* Estilos para los enlaces del Navbar en versión de escritorio */
+  .nav-link {
+    margin: 0 1rem;
+  }
+
+  .bxl-instagram,
+  .bxl-facebook-square {
+    margin-left: 0.5rem;
+  }
+}
